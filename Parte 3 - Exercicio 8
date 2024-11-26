@@ -1,0 +1,3 @@
+A instrução sizeof(sensorData) / sizeof(sensorData[0]) é usada para calcular o número de elementos de um vetor em um programa Arduino. O operador sizeof(sensorData) retorna o tamanho total do vetor em bytes, 
+enquanto sizeof(sensorData[0]) retorna o tamanho de um único elemento do vetor em bytes. Dividindo o tamanho total do vetor pelo tamanho de um único elemento, obtemos o número de elementos presentes no vetor. 
+Essa técnica é útil porque em C, o tamanho de um vetor não pode ser obtido diretamente, e essa expressão permite determinar o número de elementos de maneira eficiente.
