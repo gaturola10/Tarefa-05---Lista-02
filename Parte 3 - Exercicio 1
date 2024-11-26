@@ -1,0 +1,3 @@
+Para declarar um vetor chamado cameraData em Arduino, que pode armazenar 10 valores inteiros, você utiliza a sintaxe int cameraData[10];.
+O tipo int define que os elementos do vetor serão números inteiros, e o número entre colchetes ([10]) especifica que o vetor terá 10 posições, numeradas de 0 a 9. 
+Assim, o vetor pode armazenar até 10 valores, e você pode acessar ou modificar cada um deles utilizando o índice correspondente, como cameraData[0] para o primeiro valor e cameraData[9] para o último.
