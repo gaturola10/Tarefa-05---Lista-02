@@ -1,0 +1,3 @@
+O código apresentado percorre um vetor chamado sensorReadings de tamanho tamanhoVetor com um laço for. A cada iteração, ele verifica se o valor da posição i do vetor é igual a 150,
+utilizando a condição if (sensorReadings[i] == 150). Se essa condição for verdadeira, o comando break é executado, interrompendo o laço e saindo do loop antes de atingir o final do vetor. 
+Caso contrário, o laço continua até percorrer todas as posições do vetor, desde que o valor 150 não seja encontrado.
