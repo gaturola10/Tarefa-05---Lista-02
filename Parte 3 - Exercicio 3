@@ -1,0 +1,3 @@
+Para inicializar um vetor de floats chamado temperaturas com os valores 25.5, 26.0, 24.8, 27.3 e 26.5 em Arduino, você pode declarar o vetor e atribuir os valores diretamente na mesma linha,
+usando a sintaxe: float temperaturas[5] = {25.5, 26.0, 24.8, 27.3, 26.5};. Isso cria um vetor com cinco posições e já preenche cada posição com os valores fornecidos, sendo útil para armazenar 
+dados iniciais de temperaturas.
