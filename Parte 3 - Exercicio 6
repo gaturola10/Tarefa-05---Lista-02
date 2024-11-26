@@ -1,0 +1,4 @@
+Para atribuir valores aleatórios a cada elemento de um vetor randomValues de tamanho 5 utilizando a função random(), basta declarar o vetor e, dentro da função setup(), 
+usar um laço for para percorrer cada posição do vetor e atribuir um valor aleatório com random(0, 101). 
+Isso gera números aleatórios entre 0 e 100, que são armazenados no vetor. Em seguida, você pode imprimir os valores gerados no monitor serial para visualização. 
+O código seria algo como: int randomValues[5]; e randomValues[i] = random(0, 101); dentro do laço for.
