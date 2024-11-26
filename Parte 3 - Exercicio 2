@@ -1,0 +1,2 @@
+O código cameraData[3] = analogRead(A1); em um programa Arduino realiza uma leitura do pino analógico A1 e armazena o valor lido (um número entre 0 e 1023) na quarta posição do vetor cameraData. 
+Essa operação é útil para coletar dados de sensores conectados ao pino A1 e organizá-los em um vetor para processamento ou armazenamento.
