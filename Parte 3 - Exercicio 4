@@ -1,0 +1,2 @@
+O código utiliza um laço for para percorrer os elementos do vetor ledPins, de índice 0 a 3, e imprime cada valor no monitor serial utilizando Serial.println(ledPins[i]).
+Ele repete o processo quatro vezes, correspondente ao tamanho definido pelo limite do laço (i < 4), e a saída exibida dependerá dos valores armazenados nas quatro primeiras posições do vetor ledPins.
