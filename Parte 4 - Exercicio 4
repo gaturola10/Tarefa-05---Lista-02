@@ -1,0 +1,12 @@
+int totalLocais = 3;
+int totalMomentos = 5;
+int somaTemp = 0;
+
+for (int local = 0; local < totalLocais; local++) {
+    for (int momento = 0; momento < totalMomentos; momento++) {
+        somaTemp += dadosAmbiente[local][momento];
+    }
+}
+float mediaTemperaturas = somaTemp / (totalLocais * totalMomentos);
+Serial.println("Media das temperaturas: ");
+Serial.println(mediaTemperaturas);
